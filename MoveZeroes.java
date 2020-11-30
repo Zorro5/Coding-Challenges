@@ -3,6 +3,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ Move all the zeroes in the array to the left or right of the array.
+*/
 public class MoveZeroes {
 	
     public static void moveZeroes(int[] nums) {
