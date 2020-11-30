@@ -1,4 +1,7 @@
 
+/**
+ Solve this problem using a circular array ?
+*/
 public class RotateArray {
 
 	public static void rotate(int[] nums, int k) {
