@@ -29,9 +29,7 @@ public class MatrixReshape {
 		return temp;
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) {	
 		int array[][] = {{1,2,3},{4,5,6},{9,8,7}};
 		int temp[][] = new int[1][9];
 		temp = matrixReshape(array, 1, 9);
