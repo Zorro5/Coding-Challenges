@@ -1,4 +1,6 @@
-
+/**
+ * @author AaquibMohammad
+ */
 public class AddDigits {
 	  /* 
     Add last two digits and check if the sum has more than 1 digit.
