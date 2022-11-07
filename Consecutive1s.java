@@ -1,4 +1,6 @@
 
+/**
+*/
 public class Consecutive1s {
 
 	public class Solution {
