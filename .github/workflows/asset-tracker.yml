@@ -5,6 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "The head of this PR starts with 'releases/'"
+  test_commentary:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The head of this PR starts with 'releases/'"
