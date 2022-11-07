@@ -1,0 +1,10 @@
+name: 'Asset Tracker'
+on:
+  pull_request_target:
+    types: [opened, ready_for_review]
+    branches: [ master ]
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "The head of this PR starts with 'releases/'"
