@@ -8,4 +8,4 @@ jobs:
   test_commentary:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The head of this PR starts with 'releases/'"
+      - run: echo ${{ github.event.body }}
