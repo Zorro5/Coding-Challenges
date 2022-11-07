@@ -1,5 +1,7 @@
 import java.util.StringTokenizer;
 
+/**
+*/
 public class RevLastWord {
 	public static int lengthOfLastWord(String s) {
 		   if(s.length() == 0 || s.trim().length() == 0) return 0;
